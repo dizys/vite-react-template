@@ -1,0 +1,25 @@
+import classNames from 'classnames';
+import {observer} from 'mobx-react-lite';
+import React from 'react';
+
+import {styled} from 'theme';
+
+const Wrapper = styled.div``;
+
+export interface ${ModuleName}Props {
+  className?: string;
+}
+
+export const ${ModuleName}: React.FC<${ModuleName}Props> = observer(
+  (props) => {
+    const {className} = props;
+
+    return (
+      <Wrapper className={classNames('${htmlClassName}', className)}>
+        ${htmlClassName}
+      </Wrapper>
+    );
+  }
+);
+
+${ModuleName}.Wrapper = Wrapper;
