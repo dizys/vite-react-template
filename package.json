@@ -1,7 +1,7 @@
 {
   "name": "vite-react-template",
   "version": "1.0.0",
-  "description": "Web project template with Vite, React and more.",
+  "description": "Web project template with Vite, React, AntDesign and more.",
   "license": "MIT",
   "private": true,
   "scripts": {
