@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "node"
+    ],
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "stripInternal": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "newLine": "LF",
+    "composite": true,
+    "noEmit": true
+  }
+}
